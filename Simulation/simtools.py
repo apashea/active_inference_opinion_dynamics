@@ -4,9 +4,9 @@ import random
 import copy
 import time
 
-from model.agent import Agent
-from model.pymdp import utils
-from model.pymdp.utils import softmax
+from Model.agent import Agent
+from Model.pymdp import utils
+from Model.pymdp.utils import softmax
 
 def generate_network(N,p):
     G = nx.fast_gnp_random_graph(N,p) # create the graph for this trial & condition
