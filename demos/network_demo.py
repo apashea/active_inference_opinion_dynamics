@@ -2,11 +2,11 @@
 
 import numpy as np
 import networkx as nx
-from model.agent import Agent
+from Model.agent import Agent
 from Simulation.simtools import initialize_agent_params, initialize_network, run_simulation, connect_edgeless_nodes, clip_edges
-from analysis.analysis_tools import collect_idea_beliefs, collect_sampling_history, collect_tweets
-from model.pymdp import maths
-from model.pymdp import utils
+from Analysis.analysis_tools import collect_idea_beliefs, collect_sampling_history, collect_tweets
+from Model.pymdp import maths
+from Model.pymdp import utils
 import copy
 from matplotlib import pyplot as plt
 import seaborn as sns
