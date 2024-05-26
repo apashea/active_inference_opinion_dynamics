@@ -7,7 +7,7 @@ import seaborn as sns
 import itertools
 #from Analysis.plots import plot_beliefs_over_time, plot_conclusion_thresholds
 #from analysis_functions import *
-import metrics as cm 
+import Analysis.metrics as cm    # import metrics as cm 
 import os 
 
 class ParameterAnalysis(object):
